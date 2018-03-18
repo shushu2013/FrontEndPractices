@@ -1,0 +1,40 @@
+// @import "./reset.css";
+
+body {
+    font-family: Arial, "微软雅黑", "Microsoft YaHei", "Hiragino Sans GB",
+    "冬青黑体简体中文 w3", STXihei, "华文细黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background: url('../images/retina_wood_@2X.png');
+}
+
+a {
+    &:link,&:hover,&:visited,&:active {
+        text-decoration: none;
+    }
+}
+
+input {
+    outline: none;
+    &:foucs {
+        outline: none;
+    }
+}
+
+textarea {
+    outline: none;
+    &:foucs {
+        outline: none;
+    }
+}
+
+// 回到顶部标志
+#toTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background: url('../images/to-top.png') no-repeat;
+    background-position: center center;
+}

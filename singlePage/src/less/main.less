@@ -1,0 +1,64 @@
+// 全局变量
+@pc: 980px;
+@laptop: 768px;
+@mobile: 640px;
+@small: 480px;
+
+// 全局样式
+.l-bg {
+    overflow: hidden;
+    .box-border();
+}
+.l-center {
+    margin-top: 30px;
+    text-align: center;
+}
+.l-title {
+    .h3-title();
+}
+
+// 全局函数
+.box-border() {
+    border-radius: 4px;
+    box-shadow: 0 0 8px #999;
+    background: #f7f7f7;
+} 
+.h3-title() {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+// 对象
+.o-p--normal {
+    font-size: 16px;
+    color: #7b7b7b;
+}
+
+// 辅助类
+.u-text-center {
+    text-align: center;
+}
+.u-text-left {
+    text-align: left;
+}
+.u-text-right {
+    text-align: right;
+}
+.u-inline-block {
+    display: inline-block;
+}
+.is-hidden {
+    display: none;
+}
+.is-show {
+    display: block;
+}
+
+// 重置样式
+@import "./lib/lib.less";
+
+// 本页样式
+@import "./components/header.less";
+@import "./components/content.less";
+@import "./components/footer.less";

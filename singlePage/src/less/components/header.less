@@ -1,0 +1,108 @@
+// 测试
+.bkg(@color: red) {
+    // background: @color;
+}
+
+@height: 70px;
+.c-header {
+    position: relative;
+    height: @height;
+    text-align: center;
+    line-height: @height;
+    .bkg(purple);
+    .c-header__left {
+        display: inline-block;
+        width: 80%;
+        .bkg();
+    }
+    .c-header__nav {
+        display: inline-block;
+        vertical-align: top;
+        width: 10%;
+        .bkg();
+    }
+    .c-header__menu {
+        i {
+            font-size: 24px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+    }
+    .c-header__list {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background: #f7f7f7;
+        z-index: 10;
+        font-size: 16px;
+        li {
+            display: block;
+            line-height: 40px;
+            height: 40px;
+        }
+        a {
+            display:block;
+            border-bottom: 1px solid #ccc;
+            &:hover {
+                color: white;
+                background: red;
+            }
+        }
+    }
+}
+
+.btn() {
+    color: brown;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px brown;
+    &:hover{
+        color: white;
+        background: red;
+        box-shadow: 2px 2px 6px brown;
+    }
+}
+
+@media only screen and (min-width: @mobile) {
+    .c-header {
+        .c-header__left {  
+            width: 22%;
+        }
+        .c-header__nav {
+            width: 70%;
+        }
+        .c-header__menu {
+            display: none;
+        }
+        .c-header__list {
+            position: relative;
+            display: block;
+            max-width: 500px;
+            font-size: 12px;
+            background: none;
+            li {
+                display: inline-block;
+                width: 15%;
+                .bkg(yellow)
+            }
+        
+            a {
+                display: inline-block;
+                padding: 0 6px;
+                margin-top: (@height - 40px)/2; 
+                height: 40px;
+                line-height: 40px;
+                border-bottom: none;
+                .btn();
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: @laptop){
+    .c-header {
+        .c-header__list {
+            font-size: 14px;
+        }
+    }
+}

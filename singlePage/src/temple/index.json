@@ -1,0 +1,181 @@
+{
+    "title": "上海定做沙发套12",
+    "navigation": [
+        {
+            "id": "product",
+            "name": "产品细节"
+        }, 
+        {
+            "id": "about",
+            "name": "关于我们"
+        }, 
+        {
+            "id": "comment",
+            "name": "客户评价"
+        }, 
+        {
+            "id": "show",
+            "name": "作品展示"
+        }, 
+        {
+            "id": "service",
+            "name": "服务体系"
+        }, 
+        {
+            "id": "contact",
+            "name": "联系我们"
+        }
+    ],
+    "slider": [
+        {
+            "title": "上海沙发套定制定做",
+            "text": "专注沙发套定制，上海地区免费上门测量安装，纯手制作，一代匠心，技艺精湛，品质保证，售后无忧。"
+        },
+        {
+            "title": "师傅免费上门测量",
+            "text": "专注沙发套定制，上海地区免费上门测量安装，纯手制作，一代匠心，技艺精湛，品质保证，售后无忧。"
+        },
+        {
+            "title": "精选布料，任您挑选",
+            "text": "专注沙发套定制，上海地区免费上门测量安装，纯手制作，一代匠心，技艺精湛，品质保证，售后无忧。"
+        }
+    ],
+    "product": [
+        {
+            "image": "images/wl1.png",
+            "title": "面料",
+            "text": "优质面料 质感十足 让人舒心愉悦"
+        }, {
+            "image": "images/wl2.png",
+            "title": "成品",
+            "text": "简约之美 至纯至真 肌理清晰自然"
+        }, {
+            "image": "images/wl3.png",
+            "title": "工艺",
+            "text": "醇厚手艺 匠心打造 用心做好产品"
+        }, {
+            "image": "images/wl4.png",
+            "title": "服务",
+            "text": "上门测量 免费安装 一站式优质服务"
+        }
+    ],
+    "about": {
+        "info": {
+            "title": "专注沙发套定制，上海地区免费上门测量安装",
+            "text": "小店主营沙发类家居用品，包括沙发套定制（翻新）、窗帘定制（翻新）及酒店桌布、椅垫定制（翻新），新店开张,希望大家捧场。"
+        },
+        "detial": [
+            {
+                "icon": "glyphicon glyphicon-thumbs-up",
+                "text": "服务优质：只需把详细地址、联系电话和上门时间备注好，师傅免费带布料上门测量，为您提供专业的定制建议"
+            },
+            {
+                "icon": "glyphicon glyphicon-wrench",
+                "text":"制作精致：20多年的制作经验，师傅会用心做好每一款属于您的专属沙发套、窗帘、桌椅套"
+            }
+        ]
+    },
+    "team": [
+        {
+            "image": "images/t1.jpg",
+            "title": "Contrary to popular",
+            "text": "But I must explain to you how all this mistaken idea of denouncing"
+        }, {
+            "image": "images/t2.jpg",
+            "title": "Contrary to popular",
+            "text": "But I must explain to you how all this mistaken idea of denouncing"
+        }, {
+            "image": "images/t3.jpg",
+            "title": "Contrary to popular",
+            "text": "But I must explain to you how all this mistaken idea of denouncing"
+        }, {
+            "image": "images/t4.jpg",
+            "title": "Contrary to popular",
+            "text": "But I must explain to you how all this mistaken idea of denouncing"
+        }
+    ],
+    "comment": [
+        {
+            "image":"images/p-1.jpg",
+            "alt": "客户王先生",
+            "title": "上海市 普陀区 真华路",
+            "text": "服务好，做工精细~"
+        },
+        {
+            "image":"images/p-2.jpg",
+            "alt": "客户李小姐",
+            "title": "上海市 闵行区 古美西路",
+            "text": "把两套不一样的沙发整合了，效果很满意，师傅服务很好。"
+        }
+    ],
+    "show": [{
+            "image": "images/g1-1.jpg"
+        }, {
+            "image": "images/g1-2.jpg"
+        }, {
+            "image": "images/g1-3.jpg"
+        }, {
+            "image": "images/g1-4.jpg"
+        }, {
+            "image": "images/g1-5.jpg"
+        }, {
+            "image": "images/g1-6.jpg"
+        }, {
+            "image": "images/g1-7.jpg"
+        }, {
+            "image": "images/g1-8.jpg"
+        }, {
+            "image": "images/g1-9.jpg"
+        }, {
+            "image": "images/g1-10.jpg"
+        }, {
+            "image": "images/g1-11.jpg"
+        }, {
+            "image": "images/g1-12.jpg"
+        }
+    ],
+    "service": [
+        {
+            "image": "images/s1.jpg",
+            "alt": "预约时间",
+            "icon": "glyphicon glyphicon-hourglass",
+            "text": "1、网上预约测量时间"
+        },
+        {
+            "image": "images/s2.jpg",
+            "alt": "上门测量",
+            "icon": "glyphicon glyphicon-scale",
+            "text": "2、师傅免费上门测量"
+        },
+        {
+            "image": "images/s3.jpg",
+            "alt": "选择面料",
+            "icon": "glyphicon glyphicon-link",
+            "text": "3、各种面料供您选择"
+        },
+        {
+            "image": "images/s4.jpg",
+            "alt": "商议价格",
+            "icon": "glyphicon glyphicon-random",
+            "text": "4、测量尺寸，商议价格"
+        },
+        {
+            "image": "images/s5.jpg",
+            "alt": "上门安装",
+            "icon": "glyphicon glyphicon-user",
+            "text": "5、免费送货上门安装"
+        },
+        {
+            "image": "images/s6.jpg",
+            "alt": "售后服务",
+            "icon": "glyphicon glyphicon-glass",
+            "text": "6、制作误差，免费维护"
+        }
+    ],
+    "contact": {
+        "title": "晶美布艺",
+        "text": "专注沙发套、窗帘、桌椅套垫定做",
+        "tel": "吴先生：15221403089",
+        "email": "jingmeibuyi@163.com"
+    }
+}
