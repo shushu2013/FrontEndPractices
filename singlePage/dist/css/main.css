@@ -391,7 +391,8 @@ textarea:foucs {
 }
 .c-service .c-service__item img {
   max-height: 100px;
-  border-radius: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px #999;
 }
 .c-service .c-service__item p {
   margin-left: 20px;
