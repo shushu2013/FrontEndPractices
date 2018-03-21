@@ -4,6 +4,8 @@
 
 [响应式网页](https://shushu2013.github.io/practies/singlePage)
 
+![响应式单页面](http://oet93w0rc.bkt.clouddn.com/image/github/singlePage.jpg?imageMogr2/interlace/2)
+
 #### 使用的插件
 
 * [Gulp](https://github.com/gulpjs/gulp)  
